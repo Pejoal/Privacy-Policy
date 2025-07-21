@@ -1,48 +1,57 @@
+# Privacy Policy  
+**Deutsch A1 Arabisch App**  
+_Last updated: July 2025_
 
 ---
 
-## 📄 `PRIVACY.md` — Privacy Policy (can be linked to Play Store)
+## 1. Personal Data
 
-```markdown
-# Privacy Policy
+This app does **not collect, store, or share** any personal information.
 
-**Deutsch A1 Arabisch App** is committed to protecting your privacy.
+- No login or registration is required  
+- We do not collect names, email addresses, or any user identifiers  
+- No user activity is tracked
 
-## 1. Data Collection
+---
 
-This app does **not collect any personal information** from users.
+## 2. Internet Access
 
-- No login is required
-- No email, name, or contact information is stored
-- We do not track user activity or behavior
+The app works **entirely offline**.  
+It does **not connect to the internet** or communicate with any servers.
 
-## 2. Device Permissions
+---
 
-The app may ask for limited permissions such as:
+## 3. Permissions
 
-- Internet access: to load learning content from Firebase
-- Media access: to play audio files (stored locally or online)
+This app does **not request** access to any device features such as:
 
-These permissions are used **only** to improve your learning experience.
+- Camera  
+- Microphone  
+- Location  
+- Contacts  
+- Storage
 
-## 3. Third-Party Services
+---
 
-This app uses:
+## 4. Ads and Analytics
 
-- **Firebase** (by Google) for storing and loading app content.
-  Firebase may collect **anonymous technical data** (e.g., device type, OS) for app performance monitoring.
+- The app shows **no advertisements**  
+- It uses **no analytics or tracking tools**  
+- No third-party services are integrated
 
-> See Firebase’s privacy policy: https://firebase.google.com/support/privacy
+---
 
-## 4. No Ads
+## 5. Children
 
-This app currently does **not include any advertisements**.
+This app is safe for all age groups, including children under 13.  
+Since no data is collected, **no parental consent** is required.
 
-## 5. Contact
+---
 
-If you have any questions, you can reach the developer at:  
+## 6. Contact
+
+If you have any questions about this policy, feel free to contact the developer:
+
 📧 **pejoal.business@gmail.com**
 
 ---
-
-*Last updated: July 2025*
