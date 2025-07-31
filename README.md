@@ -1,29 +1,28 @@
 # Privacy Policy  
-**Deutsch A1 Arabisch App**  
-_Last updated: July 2025_
+**All Pejoal Hanna Apps**
 
 ---
 
 ## 1. Personal Data
 
-This app does **not collect, store, or share** any personal information.
+None of our apps collect, store, or share any personal information.
 
 - No login or registration is required  
-- We do not collect names, email addresses, or any user identifiers  
-- No user activity is tracked
+- We do not collect names, email addresses, or any unique identifiers  
+- User activity is not tracked or monitored
 
 ---
 
 ## 2. Internet Access
 
-The app works **entirely offline**.  
-It does **not connect to the internet** or communicate with any servers.
+Unless explicitly stated otherwise, all our apps work **entirely offline**.  
+They do **not connect to the internet** or communicate with any external servers.
 
 ---
 
 ## 3. Permissions
 
-This app does **not request** access to any device features such as:
+Our apps do **not request** access to any sensitive device features such as:
 
 - Camera  
 - Microphone  
@@ -31,26 +30,28 @@ This app does **not request** access to any device features such as:
 - Contacts  
 - Storage
 
+(If an app requires certain permissions for specific functionality, this will be clearly explained within that app.)
+
 ---
 
 ## 4. Ads and Analytics
 
-- The app shows **no advertisements**  
-- It uses **no analytics or tracking tools**  
-- No third-party services are integrated
+- Our apps show **no advertisements**  
+- We do **not use analytics or tracking tools**  
+- No third-party services are integrated that collect user data
 
 ---
 
 ## 5. Children
 
-This app is safe for all age groups, including children under 13.  
-Since no data is collected, **no parental consent** is required.
+Our apps are designed to be safe for all age groups, including children under 13.  
+As no personal data is collected, **no parental consent** is necessary.
 
 ---
 
 ## 6. Contact
 
-If you have any questions about this policy, feel free to contact the developer:
+If you have any questions or concerns about this policy, feel free to contact the developer:
 
 📧 **pejoal.business@gmail.com**
 
