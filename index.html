@@ -3,64 +3,188 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - All Pejoal Hanna Apps</title>
+    <title>Privacy Policy – All Pejoal Hanna Apps</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
-        h1 { text-align: center; }
-        h2 { color: #333; }
-        ul { margin: 10px 0; padding-left: 20px; }
-        strong { color: #000; }
-        hr { border: 1px solid #ccc; margin: 20px 0; }
-        .email { color: #0066cc; }
+        :root {
+            --primary: #2563eb;
+            --text: #1f2937;
+            --bg: #ffffff;
+            --light: #f9fafb;
+            --border: #e5e7eb;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.7;
+            color: var(--text);
+            background: var(--bg);
+            padding: 2rem 1rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        h1 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 0.25rem;
+        }
+        .subtitle {
+            font-size: 1rem;
+            color: #6b7280;
+            font-weight: 500;
+        }
+        main { margin-top: 2rem; }
+        section {
+            margin-bottom: 2.5rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border);
+        }
+        section:last-of-type { border-bottom: none; }
+        h2 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--primary);
+            margin-bottom: 0.75rem;
+            position: relative;
+            padding-left: 1.5rem;
+        }
+        h2::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0.3rem;
+            width: 0.75rem;
+            height: 0.75rem;
+            background: var(--primary);
+            border-radius: 50%;
+        }
+        p, ul {
+            font-size: 1rem;
+            color: var(--text);
+            margin-bottom: 1rem;
+        }
+        ul {
+            padding-left: 1.5rem;
+            list-style: none;
+        }
+        ul li {
+            position: relative;
+            margin-bottom: 0.5rem;
+        }
+        ul li::before {
+            content: '✓';
+            position: absolute;
+            left: -1.5rem;
+            color: var(--primary);
+            font-weight: 700;
+        }
+        strong { color: #111827; }
+        .highlight {
+            background: #eff6ff;
+            padding: 0.125rem 0.25rem;
+            border-radius: 0.25rem;
+            font-weight: 600;
+        }
+        .contact {
+            background: var(--light);
+            padding: 1.25rem;
+            border-radius: 0.75rem;
+            border: 1px solid var(--border);
+            text-align: center;
+            font-size: 1rem;
+        }
+        .contact a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .contact a:hover { text-decoration: underline; }
+        footer {
+            text-align: center;
+            margin-top: 3rem;
+            font-size: 0.875rem;
+            color: #9ca3af;
+        }
+        @media (max-width: 640px) {
+            body { padding: 1.5rem 1rem; }
+            h1 { font-size: 1.5rem; }
+            h2 { font-size: 1.125rem; }
+        }
     </style>
 </head>
 <body>
 
-<h1>Privacy Policy<br><strong>All Pejoal Hanna Apps</strong></h1>
-<hr>
+<header>
+    <h1>Privacy Policy</h1>
+    <p class="subtitle">All Pejoal Hanna Apps</p>
+</header>
 
-<h2>1. Personal Data</h2>
-<p>None of our apps collect, store, or share any personal information, <strong>unless explicitly stated otherwise</strong>.</p>
-<ul>
-    <li>No login or registration is required</li>
-    <li>We do not collect names, email addresses, or any unique identifiers</li>
-    <li>User activity is not tracked or monitored</li>
-</ul>
-<hr>
+<main>
 
-<h2>2. Internet Access</h2>
-<p>Unless explicitly stated otherwise, all our apps work <strong>entirely offline</strong>.<br>
-They do <strong>not connect to the internet</strong> or communicate with any external servers.</p>
-<hr>
+    <section>
+        <h2>1. Personal Data</h2>
+        <p>None of our apps collect, store, or share any personal information, <strong>unless explicitly stated otherwise</strong>.</p>
+        <ul>
+            <li>No login or registration is required</li>
+            <li>We do not collect names, email addresses, or any unique identifiers</li>
+            <li>User activity is not tracked or monitored</li>
+        </ul>
+    </section>
 
-<h2>3. Permissions</h2>
-<p>Our apps do <strong>not request</strong> access to any sensitive device features such as:</p>
-<ul>
-    <li>Camera</li>
-    <li>Microphone</li>
-    <li>Location</li>
-    <li>Contacts</li>
-    <li>Storage</li>
-</ul>
-<p><strong>Unless explicitly stated otherwise</strong> and clearly explained within that app.</p>
-<hr>
+    <section>
+        <h2>2. Internet Access</h2>
+        <p>Unless explicitly stated otherwise, all our apps work <strong class="highlight">entirely offline</strong>.</p>
+        <p>They do <strong>not connect to the internet</strong> or communicate with any external servers.</p>
+    </section>
 
-<h2>4. Ads and Analytics</h2>
-<ul>
-    <li>Our apps show <strong>no advertisements</strong></li>
-    <li>We do <strong>not use analytics or tracking tools</strong></li>
-    <li>No third-party services are integrated that collect user data</li>
-</ul>
-<hr>
+    <section>
+        <h2>3. Permissions</h2>
+        <p>Our apps do <strong>not request</strong> access to any sensitive device features such as:</p>
+        <ul>
+            <li>Camera</li>
+            <li>Microphone</li>
+            <li>Location</li>
+            <li>Contacts</li>
+            <li>Storage</li>
+        </ul>
+        <p><strong>Unless explicitly stated otherwise</strong> and clearly explained within that app.</p>
+    </section>
 
-<h2>5. Children</h2>
-<p>Our apps are designed to be safe for all age groups, including children under 13.<br>
-As no personal data is collected, <strong>no parental consent</strong> is necessary.</p>
-<hr>
+    <section>
+        <h2>4. Ads and Analytics</h2>
+        <ul>
+            <li>Our apps show <strong>no advertisements</strong></li>
+            <li>We do <strong>not use analytics or tracking tools</strong></li>
+            <li>No third-party services are integrated that collect user data</li>
+        </ul>
+    </section>
 
-<h2>6. Contact</h2>
-<p>If you have any questions or concerns about this policy, feel free to contact the developer:<br>
-📧 <a href="mailto:pejoal.business@gmail.com" class="email"><strong>pejoal.business@gmail.com</strong></a></p>
+    <section>
+        <h2>5. Children</h2>
+        <p>Our apps are designed to be safe for all age groups, including children under 13.</p>
+        <p>As no personal data is collected, <strong>no parental consent</strong> is necessary.</p>
+    </section>
+
+    <section>
+        <h2>6. Contact</h2>
+        <div class="contact">
+            <p>If you have any questions or concerns about this policy, feel free to contact the developer:</p>
+            <p>📧 <a href="mailto:pejoal.business@gmail.com">pejoal.business@gmail.com</a></p>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    &copy; 2025 Pejoal Hanna. All rights reserved.
+</footer>
 
 </body>
 </html>
